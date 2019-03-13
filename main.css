@@ -57,6 +57,14 @@ header p {
     align-items: center;
 }
 
+.jumbotron p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 0.4rem;
+}
+
 section .row img {
     margin: 0 0 30px;
     width: 100%;
@@ -64,6 +72,13 @@ section .row img {
 
 .col-md-6 {
     margin: 0 0 30px;
+}
+
+content p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    align-items: center;
 }
 
 .btn.btn-primary {
