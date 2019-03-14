@@ -123,3 +123,17 @@ footer li img {
     width: 32px;
     height: 32px;
 }
+
+#social {
+    cursor: pointer;
+}
+
+#social:hover {
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+#social:active {
+
+    transform: translateY(2px);
+}
