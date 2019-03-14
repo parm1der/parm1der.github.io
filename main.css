@@ -32,6 +32,7 @@ header p {
     display: flex;
     background-image: url("img/athena.png");
     background-size: cover;
+    background-position: center;
     color: #ffffff;
     height: 500px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
@@ -107,7 +108,7 @@ content p {
 
 footer {
     font-size: 12px;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 footer .col-sm-8 {
@@ -134,6 +135,5 @@ footer li img {
 }
 
 #social:active {
-
     transform: translateY(2px);
 }
