@@ -40,7 +40,7 @@ header p {
 }
 
 .jumbotron h2 {
-    font-size: 60px;
+    font-size: 46px;
     font-weight: 700;
     margin: 0;
     border: 0;
@@ -87,57 +87,7 @@ content p {
     align-items: center;
 }
 
-.btn.btn-primary {
-    border-radius: 2px;
-    border: 0px;
-    color: #fbd1d5;
-    text-shadow: none;
-    background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-    color: #ffffff;
-    background-color: #fbd1d5;
-}
-
-.btn-secondary {
-    background-color: #E8DFE0;
-    color: #ffffff;
-    margin: 0 0 30px;
-}
-
-footer {
-    font-size: 12px;
-    padding: 40px 0;
-}
-
-footer .col-sm-8 {
-    display: flex;
-    justify-content: flex-end;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer li img {
-    width: 32px;
-    height: 32px;
-}
-
-#social {
-    cursor: pointer;
-}
-
-#social:hover {
-    color: aliceblue;
-    opacity: 0.7;
-}
-
-#social:active {
-    transform: translateY(2px);
-}
-
+/*Everything to do with the scrollable playlist box*/
 
 .scrolling-wrapper-flexbox {
   display: flex;
@@ -156,7 +106,9 @@ footer li img {
     border: 0;
   }
 
-.card::-webkit-scrollbar {
+/* hide scrollbar */
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+  width: 0 !important;
   display: none;
 }
 
@@ -179,3 +131,38 @@ footer li img {
 .centered:active {
     opacity: 0;
 }
+
+footer {
+    font-size: 12px;
+    padding: 40px 0;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
+
+
+#social {
+    cursor: pointer;
+}
+
+#social:hover {
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+#social:active {
+    transform: translateY(2px);
+}
+
+
