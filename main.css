@@ -90,11 +90,12 @@ content p {
 /*Everything to do with the scrollable playlist box*/
 
 .scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
-  .card {
+
+.card {
     flex: 0 0 auto;
     text-align: center;
     color: aliceblue;
@@ -104,23 +105,24 @@ content p {
     padding-left: 10px;
     padding-right: 10px;
     border: 0;
-  }
+}
 
 /* hide scrollbar */
 .scrolling-wrapper-flexbox::-webkit-scrollbar {
-  width: 0 !important;
-  display: none;
+    width: 0 !important;
+    display: none;
 }
 
 /* Centered play button */
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0.75;
-  filter: alpha(opacity=75); /* For IE8 and earlier */
-  border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    /* For IE8 and earlier */
+    border: 0;
 }
 
 .centered:hover {
@@ -164,5 +166,3 @@ footer li img {
 #social:active {
     transform: translateY(2px);
 }
-
-
