@@ -137,3 +137,45 @@ footer li img {
 #social:active {
     transform: translateY(2px);
 }
+
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+  .card {
+    flex: 0 0 auto;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+  }
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+/* Centered play button */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.75;
+  filter: alpha(opacity=75); /* For IE8 and earlier */
+  border: 0;
+}
+
+.centered:hover {
+    color: black;
+    opacity: 0.4;
+}
+
+.centered:active {
+    opacity: 0;
+}
