@@ -23,6 +23,30 @@ header nav {
     justify-content: flex-end;
 }
 
+a:link{
+    color: inherit;
+    text-decoration: none;
+}
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:active{
+    color: inherit
+    text-decoration: none;
+}
+
+header span{
+    font-weight: bold;
+    padding: 0 20px;
+    margin: 0;
+}
+
 header p {
     padding: 0 20px;
     margin: 0;
@@ -166,3 +190,31 @@ footer li img {
 #social:active {
     transform: translateY(2px);
 }
+
+/*animated bg test 
+
+html, body {
+  margin: 0; padding: 0;
+}
+.hero-bkg-animated {
+  background: gray url(img/trial-bg.png) repeat 0 0;
+  opacity: 60;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 600px;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+.hero-bkg-animated h1 {
+  font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -300px 0; }
+}
+
+*/
