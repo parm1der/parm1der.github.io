@@ -100,22 +100,6 @@ header p {
     font-size: 15px;
 }
 
-section .row img {
-    margin: 0 0 25px;
-    width: 100%;
-}
-
-.col-md-6 {
-    margin: 0 0 30px;
-}
-
-content p {
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    text-align: center;
-    align-items: center;
-}
-
 /*Everything to do with the scrollable playlist box*/
 
 .scrolling-wrapper-flexbox {
@@ -124,7 +108,7 @@ content p {
     overflow-x: auto;
 }
 
-.card {
+#playlist {
     flex: 0 0 auto;
     text-align: center;
     color: aliceblue;
@@ -152,6 +136,11 @@ content p {
     filter: alpha(opacity=75);
     /* For IE8 and earlier */
     border: 0;
+}
+
+#blog{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
 }
 
 .centered:hover {
@@ -182,7 +171,6 @@ footer li img {
     height: 32px;
 }
 
-
 #social {
     cursor: pointer;
 }
@@ -195,6 +183,23 @@ footer li img {
 #social:active {
     transform: translateY(2px);
 }
+
+
+
+/*
+//DEPRECEATED
+
+
+section .row img {
+    margin: 0 0 25px;
+    width: 100%;
+}
+
+.col-md-6 {
+    margin: 0 0 30px;
+}
+
+*/
 
 /*animated bg test 
 
