@@ -30,10 +30,12 @@ a:link{
     color: inherit;
     text-decoration: none;
 }
+
 a:visited{
     color: inherit;
     text-decoration: none;
 }
+
 a:hover{
     color: hotpink;
     text-decoration: none;
