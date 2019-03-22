@@ -43,13 +43,8 @@ object-fit: cover;
     vertical-align: top;
     margin-top: 20px;
     opacity: 0.5;
-    z-index: 1;/*testpurposes*/
 }
-
-#blogimg2 {
-    z-index: 3;
-}
-
+    
 .clearfix::after {
   content: "";
   clear: both;
