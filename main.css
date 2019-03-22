@@ -25,13 +25,24 @@ header nav {
 }
 
 content {
-    margin-top: 4em;
+    margin-top: 80px;
 }
 
 .fit-image{
 width: 100%;
+height: 320px;
+top: 0;
 object-fit: cover;
-align-content: center
+align-content: center;
+}
+
+#blog {
+    margin-top: 50px;
+    vertical-align: top;
+}
+
+#blogimg {
+    vertical-align: top;
 }
 
 /*global link properties*/
