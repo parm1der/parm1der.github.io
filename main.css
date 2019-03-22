@@ -8,6 +8,7 @@ header {
 }
 
 header .row,
+content .row,
 footer .row {
     display: flex;
     align-items: center;
@@ -23,6 +24,15 @@ header nav {
     justify-content: flex-end;
 }
 
+content {
+    margin-top: 4em;
+}
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+align-content: center
+}
 
 /*global link properties*/
 
@@ -136,11 +146,6 @@ header p {
     filter: alpha(opacity=75);
     /* For IE8 and earlier */
     border: 0;
-}
-
-#blog{
-    font-family: 'Roboto', sans-serif;
-    color: #000;
 }
 
 .centered:hover {
