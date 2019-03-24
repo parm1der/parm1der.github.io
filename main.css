@@ -51,6 +51,10 @@ object-fit: cover;
   display: table;
 }
 
+.fade {
+  opacity: 0;
+}
+
 /*global link properties*/
 
 a:link{
