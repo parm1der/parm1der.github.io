@@ -68,7 +68,7 @@ a:visited{
 }
 
 a:hover{
-    color: hotpink;
+    color: darkturquoise;
     text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ header p {
 
 .jumbotron {
     display: flex;
-    background-image: url("img/athena.png");
+    background-image: url("/assets/images/athena.png");
     background-size: cover;
     background-position: center;
     color: #ffffff;
