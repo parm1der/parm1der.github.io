@@ -94,16 +94,21 @@ header nav {
     font-weight: 300;
 }
 
-header span{
-    font-weight: bold;
-    color: #000;
-    padding: 0 20px; 
-    margin: 0; 
-}
 
 header p {
     padding: 0 20px; 
     margin: 0; 
+}
+
+header nav .current{
+    font-weight: bold;
+    color: #000;
+    padding: 0 20px;
+    margin: 0;
+}
+
+header h1 .special {
+    color: gray;
 }
 
 header h1 .col-sm-7 {

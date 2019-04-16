@@ -77,7 +77,7 @@ a:active{
     text-decoration: none;
 }
 
-header span{
+header nav .current{
     font-weight: bold;
     padding: 0 20px;
     margin: 0;
@@ -86,6 +86,10 @@ header span{
 header p {
     padding: 0 20px;
     margin: 0;
+}
+
+header h1 .special {
+    color: gray;
 }
 
 .jumbotron {
@@ -121,6 +125,10 @@ header p {
 
 .jumbotron img {
     align-content: center;
+}
+
+#title1 {
+    color: linear-gradient(to right, black 66% dimgrey 33%);
 }
 
 .jumbotron p {
