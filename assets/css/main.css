@@ -13,9 +13,7 @@ footer .row {
     align-items: center;
 }
 
-content .row.row-eq-height 
-
-header h1 {
+content .row.row-eq-height header h1 {
     font-weight: 700;
     margin: 0;
 }
@@ -29,10 +27,10 @@ content {
     margin-top: 80px;
 }
 
-.fit-image{
-width: 100%;
-height: auto;
-object-fit: cover;
+.fit-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 #blog {
@@ -44,40 +42,39 @@ object-fit: cover;
     margin-top: 20px;
     opacity: 0.8;
 }
-    
+
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .fade {
-  opacity: 0;
+    opacity: 0;
 }
 
 /*global link properties*/
 
-a:link{
+a:link {
     color: inherit;
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     color: inherit;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: darkturquoise;
     text-decoration: none;
 }
 
-a:active{
-    color: inherit
-    text-decoration: none;
+a:active {
+    color: inherit text-decoration: none;
 }
 
-header nav .current{
+header nav .current {
     font-weight: bold;
     padding: 0 20px;
     margin: 0;
@@ -185,6 +182,25 @@ header h1 .special {
 .centered:active {
     opacity: 0;
 }
+
+
+.squares {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+    background-color: gray;
+    display: inline-block;
+    align-content: center!important;
+    align-items: center!important;
+}
+
+#plbox {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+/* Footer stuff */
 
 footer {
     font-size: 12px;
