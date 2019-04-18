@@ -23,4 +23,18 @@ $('.playlist4').on({
          $('#change-image').attr('src','/place4.jpg');
      }
  });
+
+
+$('.playlist5').on({
+     'click': function(){
+         $('#change-image').attr('src','/place5.jpg');
+     }
+ });
+
+
+$('.playlist6').on({
+     'click': function(){
+         $('#change-image').attr('src','/place6.jpg');
+     }
+ });
 });
