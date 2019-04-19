@@ -124,9 +124,6 @@ header h1 .special {
     align-content: center;
 }
 
-#title1 {
-    color: linear-gradient(to right, black 66% dimgrey 33%);
-}
 
 .jumbotron p {
     font-family: 'Roboto', sans-serif;
@@ -229,22 +226,17 @@ footer li img {
     transform: translateY(2px);
 }
 
-
-
-/*
-//DEPRECEATED
-
-
-section .row img {
-    margin: 0 0 25px;
-    width: 100%;
+#playcontainer {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    vertical-align: center;
 }
 
-.col-md-6 {
-    margin: 0 0 30px;
+#playcontainer p {
+    padding: 15px;
+    color: white;
 }
-
-*/
 
 /*animated bg test 
 
