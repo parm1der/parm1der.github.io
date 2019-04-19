@@ -254,7 +254,36 @@ footer li img {
 
 #playcontainer p {
     padding: 15px;
+    font-weight: 300;
     color: white;
+    background: rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+    box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+}
+    
+#playcontainer h2 {
+  padding-top: 15px;
+  position: relative;
+  letter-spacing: 6px;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  background: -webkit-linear-gradient(#eee, #666);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: 0.8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-10deg); }
+  5% { transform: skewX(10deg); }
+  10% { transform: skewX(-10deg); }
+  15% { transform: skewX(10deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
 }
 
 #change-playlist {
