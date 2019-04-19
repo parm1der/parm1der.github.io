@@ -193,6 +193,18 @@ header h1 .special {
     display: inline-block;
     align-content: center!important;
     align-items: center!important;
+    position: relative;
+    transition: transform .5s cubic-bezier(.31,2.71,.8,.9);
+    transform-origin: 50% 50%;
+}
+
+.squares canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.squares:hover {
+  transform: scale(1.05);
 }
 
 
@@ -254,24 +266,6 @@ footer li img {
 }
 
 
-/*pixellate test*/
-.parent {
-	width: 90px;
-	height: 90px;
-	margin: 0 auto 0;
-    position: relative;
-    transition: transform .5s cubic-bezier(.31,2.71,.8,.9);
-    transform-origin: 50% 50%;
-}
-
-.parent canvas {
-  position: absolute;
-  top: 0;
-	left: 0;
-}
-.parent:hover {
-  transform: scale(1.05);
-}
 /*animated bg test 
 
 html, body {
