@@ -9,11 +9,12 @@
 
     <!-- CSS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <script src="assets/scripts/hideonload.js"></script>
 
 
     <!-- bits and pieces -->
@@ -50,20 +51,39 @@
             </div>
         </div>
 
-        <div class="container-fluid" id="playcontainer" style="background-image: url('assets/images/canal.jpg');">
-        <div class ="row">
-            <div class="col-sm-8">
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed. Vulputate ut pharetra sit amet. Viverra nam libero justo laoreet sit amet cursus sit amet. Ut diam quam nulla porttitor massa id. Feugiat sed lectus vestibulum mattis. Rhoncus aenean vel elit scelerisque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eu feugiat pretium nibh ipsum consequat nisl vel. Nunc mi ipsum faucibus vitae. Vel orci porta non pulvinar. Tincidunt augue interdum velit euismod in pellentesque massa. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vulputate mi sit amet mauris commodo. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Libero nunc consequat interdum varius sit amet. Ultrices sagittis orci a scelerisque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.
-            </p>
+        <div class="container-fluid hide" id="playcontainer" style="background-image: url('');">
+            <div class="row">
+                <div class="col-sm-8">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed. Vulputate ut pharetra sit amet. Viverra nam libero justo laoreet sit amet cursus sit amet. Ut diam quam nulla porttitor massa id. Feugiat sed lectus vestibulum mattis. Rhoncus aenean vel elit scelerisque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eu feugiat pretium nibh ipsum consequat nisl vel. Nunc mi ipsum faucibus vitae. Vel orci porta non pulvinar. Tincidunt augue interdum velit euismod in pellentesque massa. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vulputate mi sit amet mauris commodo. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Libero nunc consequat interdum varius sit amet. Ultrices sagittis orci a scelerisque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <iframe id="change-playlist" src="" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
             </div>
-            <div class="col-sm-4">
-            <iframe id="change-playlist" src="https://open.spotify.com/embed/user/parm1der/playlist/3RrpfmjhZbjWtBtQYqJUTn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            </div>
-            </div>     
         </div>
     </content>
     <script src="assets/scripts/playlistselect.js"></script>
 </body>
+<footer class="container-fluid">
+    <div class="row">
+        <p class="col-sm-4"> &copy; 2019 Parminder Gill </p>
+        <ul class="col-sm-8">
+            <li class="col-sm-1" id="social">
+                <a href="http://www.instagram.com/pg.ill"><img src="assets/images/icon_insta.svg" /></a>
+            </li>
+            <li class="col-sm-1" id="social">
+                <a href="http://www.twitter.com/parm1der"><img src="assets/images/icon_twitter.svg" /></a>
+            </li>
+            <li class="col-sm-1" id="social">
+                <a href="https://open.spotify.com/user/parm1der?si=1kKiiV_BSzSfq8aGHwpSog"><img src="assets/images/icon_spotify.svg" /></a>
+            </li>
+            <li class="col-sm-1" id="social">
+                <a href="http://www.last.fm/user/parm1der"><img src="assets/images/icon_last.svg" /></a>
+            </li>
+        </ul>
+    </div>
+</footer>
 
 </html>

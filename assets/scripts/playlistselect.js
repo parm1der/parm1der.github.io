@@ -2,6 +2,7 @@ var iframe = document.getElementById('change-playlist');
 var playcontent = document.getElementById('playcontainer');
 
 jQuery(document).ready(function($){
+$('#playcontainer').hide().removeClass('hide');
 
 $('.playlist1').on({
      'click': function(){
@@ -14,34 +15,42 @@ $('.playlist1').on({
 $('.playlist2').on({
      'click': function(){
          playcontent.style.display = 'block';
-         $('#change-image').attr('src','/assets/images/athena.png');
+         $('#playcontainer').css("background-image", "url(/assets/images/athena.png)");
          iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/0BVu2oWTxFZn5PQ45CyggY';
      }
  });
  
 $('.playlist3').on({
      'click': function(){
-         $('#change-image').attr('src','/place3.jpg');
+         playcontent.style.display = 'block';
+         $('#playcontainer').css("background-image", "url(/assets/images/PLACEHOLDER)");
+         iframe.src='PLACEHOLDER';
      }
  });
  
 $('.playlist4').on({
      'click': function(){
-         $('#change-image').attr('src','/place4.jpg');
+         playcontent.style.display = 'block';
+         $('#playcontainer').css("background-image", "url(/assets/images/PLACEHOLDER)");
+         iframe.src='PLACEHOLDER';
      }
  });
 
 
 $('.playlist5').on({
      'click': function(){
-         $('#change-image').attr('src','/place5.jpg');
+         playcontent.style.display = 'block';
+         $('#playcontainer').css("background-image", "url(/assets/images/PLACEHOLDER)");
+         iframe.src='PLACEHOLDER';
      }
  });
 
 
 $('.playlist6').on({
      'click': function(){
-         $('#change-image').attr('src','/place6.jpg');
+         playcontent.style.display = 'block';
+         $('#playcontainer').css("background-image", "url(/assets/images/PLACEHOLDER)");
+         iframe.src='PLACEHOLDER';
      }
  });
 });

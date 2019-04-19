@@ -53,6 +53,10 @@ content {
     opacity: 0;
 }
 
+.hide {
+    display: none;
+}
+
 /*global link properties*/
 
 a:link {
@@ -231,6 +235,9 @@ footer li img {
     background-size: cover;
     background-position: center;
     vertical-align: center;
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 #playcontainer p {
@@ -238,6 +245,33 @@ footer li img {
     color: white;
 }
 
+#change-playlist {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+   padding-bottom: 15px;
+   padding-top: 15px;
+}
+
+
+/*pixellate test*/
+.parent {
+	width: 90px;
+	height: 90px;
+	margin: 0 auto 0;
+    position: relative;
+    transition: transform .5s cubic-bezier(.31,2.71,.8,.9);
+    transform-origin: 50% 50%;
+}
+
+.parent canvas {
+  position: absolute;
+  top: 0;
+	left: 0;
+}
+.parent:hover {
+  transform: scale(1.05);
+}
 /*animated bg test 
 
 html, body {
