@@ -1,40 +1,63 @@
 var iframe = document.getElementById('change-playlist');
 var playcontent = document.getElementById('playcontainer');
+var delayinms = 550; 
 
 jQuery(document).ready(function($){
 $('#playcontainer').hide().removeClass('hide');
 
 $('.playlist1').on({
      'click': function(){
-         $("#playcontainer").fadeOut(600);
-         $('#playcontainer').delay(650).fadeIn(300);
-         $('#playcontainer').css("background-image", "url(/assets/images/720air.jpg)");
+         $("#playcontainer").fadeOut(500);  
+         setTimeout(function() {
+         $('#playcontainer').fadeIn(600);
+         $('#playcontainer').css("background-image", "url(/assets/images/athena.png)");
          iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/3RrpfmjhZbjWtBtQYqJUTn';
+         $('#playlistname').text("future IMPERFECT / CYBERPUNK dystopia");
+         $('#playlistdesc').text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed. Vulputate ut pharetra sit amet. Viverra nam libero justo laoreet sit amet cursus sit amet. Ut diam quam nulla porttitor massa id. Feugiat sed lectus vestibulum mattis. Rhoncus aenean vel elit scelerisque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eu feugiat pretium nibh CYBERPUNK ipsum consequat nisl vel. Nunc mi ipsum faucibus vitae. Vel orci porta non pulvinar. Tincidunt augue interdum velit euismod in pellentesque massa. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vulputate mi sit amet mauris commodo. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Libero nunc consequat interdum varius sit amet. Ultrices sagittis orci a scelerisque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.");
+         $('#playlistdesc2').text("Moody ◆ Electronic ◆ Ambient ◆ Drum n Bass ◆ Trap ◆ Soundtrack");
+         }, delayinms);
      }
  });
  
 $('.playlist2').on({
      'click': function(){
-         $("#playcontainer").fadeOut(600);
-         $('#playcontainer').delay(650).fadeIn(300);
-         $('#playcontainer').css("background-image", "url(/assets/images/athena.png)");
+         $("#playcontainer").fadeOut(500);
+         setTimeout(function() {
+         $('#playcontainer').fadeIn(600);
+         $('#playcontainer').css("background-image", "url(/assets/images/canal.jpg)");
          iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/0BVu2oWTxFZn5PQ45CyggY';
+         $('#playlistname').text("Ronin");
+         $('#playlistdesc').text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed. Vulputate ut pharetra sit amet. Viverra nam libero justo laoreet sit amet cursus sit amet. Ut diam quam nulla porttitor massa id. Feugiat sed lectus vestibulum mattis. Rhoncus aenean vel elit scelerisque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eu feugiat pretium nibh RONIN ipsum consequat nisl vel. Nunc mi ipsum faucibus vitae. Vel orci porta non pulvinar. Tincidunt augue interdum velit euismod in pellentesque massa. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vulputate mi sit amet mauris commodo. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Libero nunc consequat interdum varius sit amet. Ultrices sagittis orci a scelerisque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.");
+         $('#playlistdesc2').text("");
+         }, delayinms);
      }
  });
  
 $('.playlist3').on({
-     'click': function(){
-         playcontent.style.display = 'block';
-         $('#playcontainer').css("background-image", "url(/assets/images/PLACEHOLDER)");
-         iframe.src='PLACEHOLDER';
+     'click': function(){         
+         $("#playcontainer").fadeOut(500);
+         setTimeout(function() {
+         $('#playcontainer').fadeIn(600);
+         $('#playcontainer').css("background-image", "url(/assets/images/canal.jpg)");
+         iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/2oihvk73zA86hVMVCsaOfI';
+         $('#playlistname').text("Shade");
+         $('#playlistdesc').text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed. Vulputate ut pharetra sit amet. Viverra nam libero justo laoreet sit amet cursus sit amet. Ut diam quam nulla porttitor massa id. Feugiat sed lectus vestibulum mattis. Rhoncus aenean vel elit scelerisque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eu feugiat pretium nibh SHADE ipsum consequat nisl vel. Nunc mi ipsum faucibus vitae. Vel orci porta non pulvinar. Tincidunt augue interdum velit euismod in pellentesque massa. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vulputate mi sit amet mauris commodo. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Libero nunc consequat interdum varius sit amet. Ultrices sagittis orci a scelerisque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.");
+         $('#playlistdesc2').text("");
+         }, delayinms);
      }
  });
- 
+
+
 $('.playlist4').on({
      'click': function(){
-         playcontent.style.display = 'block';
-         $('#playcontainer').css("background-image", "url(/assets/images/PLACEHOLDER)");
-         iframe.src='PLACEHOLDER';
+         setTimeout(function() {
+         $('#playcontainer').fadeIn(600);
+         $('#playcontainer').css("background-image", "url(/assets/images/720air.jpg)");
+         iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/5VwsZirfundAy17W4HRUXE';
+         $('#playlistname').text("Legendary");
+         $('#playlistdesc').text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed. Vulputate ut pharetra sit amet. Viverra nam libero justo laoreet sit amet cursus sit amet. Ut diam quam nulla porttitor massa id. Feugiat sed lectus vestibulum mattis. Rhoncus aenean vel elit scelerisque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eu feugiat pretium nibh LEGENDARY ipsum consequat nisl vel. Nunc mi ipsum faucibus vitae. Vel orci porta non pulvinar. Tincidunt augue interdum velit euismod in pellentesque massa. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vulputate mi sit amet mauris commodo. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Libero nunc consequat interdum varius sit amet. Ultrices sagittis orci a scelerisque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.");
+         $('#playlistdesc2').text("");
+         }, delayinms);
      }
  });
 

@@ -188,14 +188,14 @@ header h1 .special {
 .squares {
     height: 90px;
     width: 90px;
-    margin: 10px;
-    background-color: gray;
+    margin: 10px;    
+    background-color: rgba(0,0,0,.45);
     display: inline-block;
     align-content: center!important;
     align-items: center!important;
     position: relative;
-    transition: transform .5s cubic-bezier(.31,2.71,.8,.9);
-    transform-origin: 50% 50%;
+    transition: transform .5s cubic-bezier(.31,2.71,.8,.9)!important;
+    transform-origin: 50% 50%!important;
 }
 
 .squares canvas {
@@ -204,8 +204,72 @@ header h1 .special {
   left: 0;
 }
 .squares:hover {
-  transform: scale(1.05);
+  transform: scale(1.05)!important;
 }
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.floating:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.floating2 {  
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-delay: 600ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.floating2:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes floating2 {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }   
+}
+
+.floating3 {  
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-delay: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.floating3:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes floating3 {
+    from { transform: translate(0, 0px); }
+    50%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, 0px); }    
+}
+
+
 
 
 /* Footer stuff */
