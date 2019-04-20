@@ -23,6 +23,14 @@ header nav {
     justify-content: flex-end;
 }
 
+header h1{
+    display:inline;
+}
+    
+.pagetitle {
+    display: inline-block;
+}
+
 content {
     margin-top: 80px;
 }
@@ -56,6 +64,100 @@ content {
 .hide {
     display: none;
 }
+
+/* equaliser logo*/
+.equaliser-container {
+        height: 35px;
+        width: 35px;
+        display: inline;
+        animation-iteration-count: 5;
+}
+
+.colour-bar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 10px;
+        background: #999797;
+}
+      
+.equaliser-column {
+        width: 8px;
+        display: inline-block;
+        margin: 0 0 0 0;
+        padding: 0;
+        height: 10px;
+        position: relative;
+        list-style-type: none;
+}
+      
+.equaliser-column:nth-child(1) .colour-bar {
+        animation: color-bar 3s 1.2s ease-out alternate infinite;
+}
+      
+.equaliser-column:nth-child(2) .colour-bar {
+        animation: color-bar 3s 0.55s ease-out alternate infinite;
+}
+      
+.equaliser-column:nth-child(3) .colour-bar {
+        animation: color-bar 3s 1.9s ease-out alternate infinite;
+}
+
+.equaliser-column:last-child {
+        margin-right: 8px;
+}
+
+@keyframes color-bar {
+        0% {
+          height: 3.5px;
+          background: gray;
+        }
+        10% {
+          height: 10.5px;
+          background: gray;
+        }
+        20% {
+          height: 17.5px;
+          background: gray;
+        }
+        30% {
+          height: 7px;
+          background: gray;
+        }
+        40% {
+          height: 24.5px;
+          background: gray;
+        }
+        50% {
+          height: 31.5px;
+          background: gray;
+        }
+        60% {
+          height: 10.5px;
+          background: gray;
+        }
+        70% {
+          height: 28px;
+          background: gray;
+        }
+        80% {
+          height: 17.5px;
+          background: gray;
+        }
+        90% {
+          height: 10.5px;
+          background: gray;
+        }
+        100% {
+          height: 3.5px;
+          background: gray;
+        }
+      }
+      
+
+
+
 
 /*global link properties*/
 
@@ -223,7 +325,7 @@ header h1 .special {
 
 @keyframes floating {
     from { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 10px); }
     to   { transform: translate(0, -0px); }    
 }
 
@@ -244,7 +346,7 @@ header h1 .special {
 
 @keyframes floating2 {
     from { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 10px); }
     to   { transform: translate(0, -0px); }   
 }
 
@@ -265,7 +367,7 @@ header h1 .special {
 
 @keyframes floating3 {
     from { transform: translate(0, 0px); }
-    50%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 10px); }
     to   { transform: translate(0, 0px); }    
 }
 
