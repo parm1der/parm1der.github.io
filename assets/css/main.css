@@ -78,8 +78,26 @@ content {
         left: 0;
         right: 0;
         bottom: 0;
-        height: 10px;
-        background: #999797;
+        height: 20px;
+        background: gray;
+}
+
+.colour-bar2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 30px;
+        background: gray;
+}
+
+.colour-bar3 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 11px;
+        background: gray;
 }
       
 .equaliser-column {
@@ -87,21 +105,20 @@ content {
         display: inline-block;
         margin: 0 0 0 0;
         padding: 0;
-        height: 10px;
         position: relative;
         list-style-type: none;
 }
       
 .equaliser-column:nth-child(1) .colour-bar {
-        animation: color-bar 3s 1.2s ease-out alternate infinite;
+        animation: color-bar 3s 1.2s ease-out alternate 3.7;
 }
       
-.equaliser-column:nth-child(2) .colour-bar {
-        animation: color-bar 3s 0.55s ease-out alternate infinite;
+.equaliser-column:nth-child(2) .colour-bar2 {
+        animation: color-bar 3s 0.55s ease-out alternate 3.5;
 }
       
-.equaliser-column:nth-child(3) .colour-bar {
-        animation: color-bar 3s 1.9s ease-out alternate infinite;
+.equaliser-column:nth-child(3) .colour-bar3 {
+        animation: color-bar 3s 1.9s ease-out alternate 4;
 }
 
 .equaliser-column:last-child {
