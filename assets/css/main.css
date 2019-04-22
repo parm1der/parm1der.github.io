@@ -57,8 +57,9 @@ content {
 #blogimg {
     vertical-align: top;
     margin-top: 20px;
-    opacity: 0.8;
+    /*opacity: 0.8;*/  
 }
+
 
 .clearfix::after {
     content: "";
@@ -472,6 +473,7 @@ footer li img {
 }
     
 #playcontainer h2 {
+  font-family: 'Kanit', sans-serif;
   padding-top: 15px;
   position: relative;
   letter-spacing: 6px;
