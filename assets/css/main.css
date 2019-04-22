@@ -317,7 +317,7 @@ header h1 .special {
     height: 90px;
     width: 90px;
     margin: 10px;    
-    background-color: rgba(0,0,0,.45);
+    background-color: rgba(0,0,0,0);
     display: inline-block;
     align-content: center!important;
     align-items: center!important;
@@ -465,7 +465,7 @@ footer li img {
     padding: 15px;
     font-weight: 300;
     color: white;
-    background: rgba(0,0,0,0.45);
+    background: rgba(0,0,0,0.6);
     -moz-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
     -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,.5);
     box-shadow: 3px 3px 5px rgba(0,0,0,.5);
@@ -480,9 +480,16 @@ footer li img {
   text-decoration: none;
   text-align: center;
   align-content: center;
-  background: -webkit-linear-gradient(#eee, #666);
+  color: white;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+/* background: -webkit-linear-gradient(#eee, #666);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   animation: 0.8s shake infinite alternate;
 }
 
@@ -503,6 +510,9 @@ footer li img {
    padding-top: 15px;
 }
 
+.iframecol {
+    vertical-align: middle;
+}
 
 /*animated bg test 
 
