@@ -28,7 +28,7 @@ $('.playlist2').on({
          iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/0BVu2oWTxFZn5PQ45CyggY';
          $('#playlistname').text("Ronin");
          $('#playlistdesc').text("There's only one influence for this playlist - Nujabes' masterpiece soundtrack for the Anime Samurai Champloo. Filled with Jazzy & Lo-Fi hip hop tunes this playlist is perfect for times you need to focus and breathe. Laid-back and contemplative, this playlist should leave you feeling like a stoic ronin, mentally equipped to deal with any obstacle in your day. Rest in Peace Jun Seba.");
-         $('#playlistdesc2').text("");
+         $('#playlistdesc2').text("Relaxed ◆ Meditative ◆ Jazzy ◆ Hip Hop ◆ Chillhop ◆ Lofi ◆ Nujabes ◆ J Dilla");
          }, delayinms);
      }
  });
@@ -39,10 +39,10 @@ $('.playlist3').on({
          setTimeout(function() {
          $('#playcontainer').fadeIn(600);
          $('#playcontainer').css("background-image", "url(/assets/images/canal.jpg)");
-         iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/2oihvk73zA86hVMVCsaOfI';
-         $('#playlistname').text("Shade");
-         $('#playlistdesc').text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed. Vulputate ut pharetra sit amet. Viverra nam libero justo laoreet sit amet cursus sit amet. Ut diam quam nulla porttitor massa id. Feugiat sed lectus vestibulum mattis. Rhoncus aenean vel elit scelerisque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Eu feugiat pretium nibh SHADE ipsum consequat nisl vel. Nunc mi ipsum faucibus vitae. Vel orci porta non pulvinar. Tincidunt augue interdum velit euismod in pellentesque massa. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vulputate mi sit amet mauris commodo. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Libero nunc consequat interdum varius sit amet. Ultrices sagittis orci a scelerisque. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.");
-         $('#playlistdesc2').text("");
+         iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/1L34aYB5zty8ScDfiKX8XB';
+         $('#playlistname').text("The Golden Era");
+         $('#playlistdesc').text("This one doesn't really need a description, it's a playlist dedicated to my first love; hip hop. Although it's still something that's contested, the golden era of hip hop to me was the 90s. You had hardcore east coast MC's, the southern kings with their own flavour, and the west coast gangster rappers all putting out genre defining albums. By no means comprehensive, this playlist should have your head nodding while giving you a history lesson into one of the most important musical genres of our time. Also: Jay Z we need your music on Spotify.");
+         $('#playlistdesc2').text("90's Hip Hop");
          }, delayinms);
      }
  });
@@ -72,10 +72,30 @@ $('.playlist5').on({
 
 
 $('.playlist6').on({
-     'click': function(){
-         playcontent.style.display = 'block';
-         $('#playcontainer').css("background-image", "url(/assets/images/PLACEHOLDER)");
-         iframe.src='PLACEHOLDER';
+     'click': function(){         
+         $("#playcontainer").fadeOut(500);
+         setTimeout(function() {
+         $('#playcontainer').fadeIn(600);
+         $('#playcontainer').css("background-image", "url(/assets/images/canal.jpg)");
+         iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/6UdQGBCwiK5X6yNXQWn3hI';
+         $('#playlistname').text("Need for Speed - Remixed");
+         $('#playlistdesc').text("An alternative version of the Need for Speed: Payback soundtrack, including some high-octane classics from previous entries in the franchise and a few fresh favourites. Expect this to be updated with future need for speed titles. Fast and furious, this is an essential playlist for midnight cruises around the city.");
+         $('#playlistdesc2').text("Racing ◆ Drum and Bass ◆ Electro House ◆ Metal ◆ Hip Hop ◆ Rock ◆ Dubstep");
+         }, delayinms);
+     }
+ });
+    
+$('.playlist7').on({
+     'click': function(){         
+         $("#playcontainer").fadeOut(500);
+         setTimeout(function() {
+         $('#playcontainer').fadeIn(600);
+         $('#playcontainer').css("background-image", "url(/assets/images/canal.jpg)");
+         iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/6yV4JlDaLkx7gMhf9sG7bk';
+         $('#playlistname').text("WipEout Omega Collection");
+         $('#playlistdesc').text("Swapping out asphalt for Anti-gravity race tracks and boost panels, this is a different kind of racing playlist. WipEout is one of my favourite gaming franchises; high-speed, destructive and slick. This playlist is to accompany those adrenaline filled races with a perfect thumping bass soundtrack. Thanks to Studio Liverpool for crafting such incredible games and thanks to The Design Republic for being an endless source of inspiration in the design space.");
+         $('#playlistdesc2').text("Racing ◆ Future ◆ Drum and Bass ◆ Electro ◆ Bass ◆ Neuro ◆ Tech ◆ Dubstep");
+         }, delayinms);
      }
  });
 });
