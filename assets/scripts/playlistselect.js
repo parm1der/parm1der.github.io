@@ -41,7 +41,7 @@ $('.playlist3').on({
          $('#playcontainer').css("background-image", "url(/assets/images/train.png)");
          iframe.src='https://open.spotify.com/embed/user/parm1der/playlist/1L34aYB5zty8ScDfiKX8XB';
          $('#playlistname').text("The Golden Era");
-         $('#playlistdesc').text("This one doesn't really need a description, it's a playlist dedicated to my first love; hip hop. Although it's still something that's contested, the golden era of hip hop to me was the 90s. You had hardcore east coast MC's, the southern kings with their own flavour, and the west coast gangster rappers all putting out genre defining albums. By no means comprehensive, this playlist should have your head nodding while giving you a history lesson into one of the most important musical genres of our time. Also: Jay Z we need your music on Spotify.");
+         $('#playlistdesc').text("This one doesn't really need a description, it's a playlist dedicated to my first love; hip hop. Although it's still something that's contested, the golden era of hip hop to me was the 90s. You had hardcore east coast MC's, the southern kings with their own flavour, and the west coast gangster rappers. All of whom were putting out genre defining albums in the 1990s. By no means comprehensive, this playlist should have your head nodding while giving you a history lesson into one of the most enjoyable decades of one of the most important genres of our time. Also: Jay Z we need your music on Spotify.");
          $('#playlistdesc2').text("90's Hip Hop");
          }, delayinms);
      }

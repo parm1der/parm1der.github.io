@@ -51,7 +51,11 @@ content {
 }
 
 #blog {
-    margin-top: 80px;
+    margin-top: 60px;
+}
+
+.first {
+    margin-top: 20px!important;
 }
 
 #blogimg {
@@ -399,8 +403,6 @@ header h1 .special {
 }
 
 
-
-
 /* Footer stuff */
 
 #page-container {
@@ -514,6 +516,26 @@ footer li img {
 
 .iframecol {
     vertical-align: middle;
+}
+
+.about-text {
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-text span {
+    color: gray;
+    font-style: italic;
+}
+
+.surprise {
+    padding: 20px;
+}
+
+.disclaimer {
+    color: gray;
+    font-size: 70%;
 }
 
 /*animated bg test 
