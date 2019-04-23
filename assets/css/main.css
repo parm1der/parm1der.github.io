@@ -529,6 +529,10 @@ footer li img {
     font-style: italic;
 }
 
+.about-text a {
+    font-weight: bold;
+}
+
 .surprise {
     padding: 20px;
 }
