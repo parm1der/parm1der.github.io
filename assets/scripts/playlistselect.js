@@ -50,6 +50,7 @@ $('.playlist3').on({
 
 $('.playlist4').on({
      'click': function(){
+         $("#playcontainer").fadeOut(500);
          setTimeout(function() {
          $('#playcontainer').fadeIn(600);
          $('#playcontainer').css("background-image", "url(/assets/images/Imagine.png)");
