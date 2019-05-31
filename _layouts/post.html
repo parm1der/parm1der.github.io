@@ -1,0 +1,57 @@
+---
+layout: default
+---
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-md-8 offset-md-2">
+                <hr>
+                
+                <!-- Title -->
+                <h2>{{ page.title }}</h2>
+                
+                <!-- Subtitle & Author-->
+                <h5>{{ page.subtitle}} - {{ page.date | date: "%B %d, %Y" }}</h5>
+                <span class="meta">By {{ page.author }}</span>
+
+                <hr>
+                
+                
+                
+                <!--Preview Image--> 
+                {% if page.image %}
+                <div class="container-fluid">
+                <figure class="figure">
+                    <img src="{{ page.image }}" class="img-fluid fit-image rounded" id="blogimg" />
+                    <figcaption class="figure-caption text-right">{{page.imagecaption}}</figcaption>
+                </figure>
+                </div>
+                {% endif %}
+                
+                <!-- Post Content -->
+                {% if page.lead %}
+                <p class="lead">{{ page.lead }}</p>
+                {% endif %}
+                
+                {{ page.content }}
+                
+                
+                <!-- Post Navigation -->
+                
+                <hr>
+
+                {% if page.previous %}
+                <span class="previous-link">
+                <a rel="prev" href="{{ page.previous.url }}">&lt; Previous Article</a>
+                </span>
+                {% endif %}
+                
+                
+                {% if page.next %}
+                <span class="next-link float-right">
+                <a rel="next" href="{{ page.next.url }}">Next Article &gt;</a>
+                </span>
+                {% endif %}
+                
+                </div>
+                </div>
+                </div>

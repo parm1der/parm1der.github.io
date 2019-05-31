@@ -1,0 +1,7 @@
+#Site settings
+title: stereotopia
+description: 
+baseurl: ""
+
+#Build Settings
+permalink: none

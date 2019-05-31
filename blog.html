@@ -1,162 +1,33 @@
-<!DOCTYPE html>
-<html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- bits and pieces -->
-    <title>stereotopia -  blog</title>
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon.png">
-
-</head>
-
-<body>
-    <header class="container-fluid">
+<section id="blog">
+    <div class="container-fluid">
+        {% for post in site.posts %}
         <div class="row">
-            <div class="pagetitle col-sm-7">
-                <a href="index.html">
-                    <div class="equaliser-container">
-                        <ol class="equaliser-column">
-                            <li class="colour-bar"></li>
-                        </ol>
-                        <ol class="equaliser-column">
-                            <li class="colour-bar2"></li>
-                        </ol>
-                        <ol class="equaliser-column">
-                            <li class="colour-bar3"></li>
-                        </ol>
-                    </div>
-                    <h1>stereo<span class="special">topia</span></h1>
-                </a>
-            </div>
-            <nav class="col-sm-5 text-right">
-                <p><a href="playlists.html">playlists</a></p>
-                <span class="current">blog</span>
-                <p><a href="about.html">about</a></p>
-            </nav>
-        </div>
-    </header>
+            <div class="col-md-8 offset-md-2">
+                <div class="row postholder">
+                    <div class="col-md-2">
 
-    <content>
-        <div class="first" id="blog">
-            <div class="container-fluid">
-                <h2>The endgame of Avengers: Endgame</h2>
-                <h5>Who will be the MCU's next big supervillain? - Apr 22, 2019</h5>
-                <div class="row">
-                    <div class="col-sm-7">
-                        <p>
-                            The writing's on the wall for Thanos in the MCU. Whether he'll survive Endgame or not remains to be seen, but who/what's going to pick up the mantle when he's inevitably defeated? I've been giving some thought to this and have a few theories:
-                        </p>
-                        <h5>1. Red Skull</h5>
-                        <p>
-                            In Captain America: The First Avenger we last see Red Skull picking up the tesseract (containing the Space Infinity Stone), seemingly screaming in pain, and then being transported somewhere across the universe, leaving the tesseract behind on earth. Much later, in Avengers: Infinity War we learn that Red Skull is on Vormir, where he has been forced to act as "guide" to the Soul Stone. This may not be the case though... Red Skull could be lying to Thanos.
-                            The first clue to this is when knows exactly who Gamora, Thanos and Thanos' father are. It is his "curse to know all who journey here [to Vormir]". Does that mean he knows his motives, his history and even his downfall? In that case - Red Skull could be using Thanos to obtain the Soul Stone, knowing that this road will only lead to Thanos' ultimate demise at the hands of the avengers (and 6 infinity stones ripe for the taking in the universe without a Mad Titan to deal with). Is Red Skull still seeking the Infinity Stones, could we even see him wield the gauntlet?
 
-                        </p>
-                        <br>
-                        <h5>2. Galactus</h5>
-                        <p>
-                            So I've suspected that Marvel Studios will use Galactus as soon as they re-acquire the rights to the F4 characters. Disney has now acquired 21st Century Fox and with the rights to The Fantastic Four, X-Men and all associated characters. 
-                        </p>
-                        <p>
-                            Why Galactus? Galactus is a planet eating (yes you read that right) cosmic entity who serves as a perfect common enemy for the avengers and... The Fantastic Four. In case you're unaware, fans of the comics have been longing for more Fantastic Four from Marvel for a LONG time. Ever since the MCU plans took off, there has been a general feeling that Marvel has been neglecting the fantastic four (few comic series, few toys, merchandise etc.) In fact many fans believe there was an active "boycott" of everything F4 and x-men in effect ever since Fox has owned the characters. By bringing the fantastic four and Galactus back in to the fold, marvel will make a lot of fans happy. Not to mention a lengthy arc introducing characters like Doom and the Silver Surfer.
-                        </p>
-                        <p>
-                            That's not all - there's also a <a href="https://www.reddit.com/r/FanTheories/comments/b0egpw/endgame_why_the_next_big_bad_is_galactus/?utm_source=share&utm_medium=web2x">fan theory</a> floating around that suggests Thanos knows Galactus is coming and furthermore that his home planet Titan's life force was devastated by Galactus (not famine and drought as Thanos explains). This would explain it spinning off its gravitational axis (currently a mystery) and Thanos wiping out half the universe. Galactus tends to only consume planets that are thriving and "ripe". Thanos' snap would have changed this. Is Galactus coming?
-                        </p>
-                        <br>
-                        <h5>3. Something else?</h5>
-                        <p>
-                            Marvel has a rich catalogue of villains/malicious entities to pick from and I don't doubt Marvel Studios' ability to surprise us. Ultron could always return. When the x-men are introduced there's so much potential for a fresh take on Apocalypse and Phoenix. Maybe things will get really bad and The Beyonders will end the multiverse... I don't think we'll get any answers this week when Avengers: Endgame premieres globally but I can't contain my excitement to see the likes of Thor, Hulk and Cap triumph over Thanos (please don't die).
-                        </p>
+                        <img href="{{ post.url }}" src="{{ post.image}}" class="img-fluid fit-image rounded blogimg-small"/>
+
+
                     </div>
-                    <div class="col-sm-5">
-                        <div>
-                            <img src="assets/images/redskull.png" class="img-responsive fit-image rounded float-right" id="blogimg" alt="Red Skull's death from the Avengers: Infinity War Prelude comic"/>
-                            <img src="assets/images/galactus.png" class="img-responsive fit-image rounded float-right" id="blogimg" alt="Galactus"/>
-                            <img src="assets/images/Doctor_Doom.jpg" class="img-responsive fit-image rounded float-right" id="blogimg" alt="Doctor Victor Von Doom"/>
-                        </div>
+
+                    <div class="col-md-10">
+
+                        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                        <h6><span>{{ post.date |  date: "%B %d, %Y" }}</span><span class="float-right">&#9202;{% include read_time.html content=post.content %}</span></h6>
+                        <p>{{post.excerpt}} <a href="{{ post.url }}">Read More</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="fade" id="blog">
-            <div class="container-fluid">
-                <h2>The Marathon Continues</h2>
-                <h5>Rest in Peace Nipsey Hussle - Apr 4, 2019</h5>
-                <div class="row">
-                    <div class="col-sm-7">
-                        <p>
-                            Man, the news of Nipsey Hussle's death hit me pretty hard this week.
-                            I first became aware of Nipsey was when it was <a href="https://hiphopdx.com/news/id.25672/title.nipsey-hussle-charging-100-for-crenshaw-mixtape#">reported </a> he was selling limited hard copies of his Mixtape "Crenshaw" for $100. This was in 2013 - physical sales were becoming a thing of the past, iTunes was the platform of choice for many and Spotify was starting to gain traction. Oh and that's without mentioning paying for a mixtape was a foreign concept to the vast majority of hip-hop fans at the time. Jay-Z bought 100 of the total 1000 copies. Naturally "Crenshaw" sold out. Nipsey was a hustler by name and by nature.
-                        </p>
-                        <p>
-                            I won't pretend I was a long-time fan of his music, I rarely listened to him, and unfortunately until now never got around to listening to one of his projects from start to finish. But being a hip-hop fan, whenever his name was brought up in conversation, there was always unanimous respect and admiration for Nipsey. His accomplishments extend far beyond just music. He will be remembered as an activist, entrepeneur and leader. A pillar of his community at just 33 years of age, Nipsey was someone leading by example in a way that only he could. Ermias Asghedom was the change he wanted to see in the world. Rest in Power.
-                        </p>
-                    </div>
-                    <div class="col-sm-5">
-                        <!--div class="sticky-top"--><!--/div-->
-                        <img src="assets/images/nipsey.jpg" class="img-responsive fit-image rounded float-right" id="blogimg" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="fade" id="blog">
-            <div class="container-fluid">
-                <h2>Hello, World!</h2>
-                <h5>I'm not a blogger I just type a lot - Apr 3, 2019</h5>
-                <div class="row">
-                    <div class="col-sm-7">
-                        <p>
-                            This is something I've always wanted to do. Not for any kind of recognition - I just feel like I need to express myself and occasionally I might have something interesting to say! Spoiler: this post isn't one of those times. I do have some things planned though so please stay tuned for some analysis and commentary on things I am passionate about. This may or may not be limited to: music, movies, video games, street fashion and pseudo-philosphical ramblings.
-                        </p>
-                        <p>
-                            The primary purpose of this website was just to have somewhere to post my playlists to. I spend hours everyday listening to music and think I'm fairly decent at putting together a playlist to encapsulate a speficic emotion, mood or situation. Secondly, I wanted to challenge myself - I've always wanted to have my own website but wanted to steer clear of templates and content management systems. So I challenged myself and here it is; Parminder's website written in scratch in HTML, CSS and JavaScript. Mission Accomplished!
-                        </p>
-                        <p>
-                            There are a couple of things I'm not happy with (namely the blog layout) - I'm definitely working on it though! Feel free to reach out with any feedback you have and music suggestions are definitely encouraged.
-                        </p>
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="sticky-top">
-                            <img src="assets/images/wheel.png" class="img-responsive fit-image rounded float-right" id="blogimg" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </content>
-    <script src="assets/scripts/fade.js"></script>
-</body>
 
-<footer class="container-fluid">
-    <div class="row">
-        <p class="col-sm-4"> &copy; 2019 Parminder Gill </p>
-        <ul class="col-sm-8">
-            <li class="col-sm-1" id="social">
-                <a href="https://www.instagram.com/pg.ill"><img src="assets/images/icon_insta.svg" /></a>
-            </li>
-            <li class="col-sm-1" id="social">
-                <a href="https://www.twitter.com/parm1der"><img src="assets/images/icon_twitter.svg" /></a>
-            </li>
-            <li class="col-sm-1" id="social">
-                <a href="https://open.spotify.com/user/parm1der?si=1kKiiV_BSzSfq8aGHwpSog"><img src="assets/images/icon_spotify.svg" /></a>
-            </li>
-            <li class="col-sm-1" id="social">
-                <a href="https://www.last.fm/user/parm1der"><img src="assets/images/icon_last.svg" /></a>
-            </li>
-        </ul>
+        {% endfor %}
     </div>
-</footer>
-
-</html>
+</section>
+<script src="assets/scripts/fade.js"></script>

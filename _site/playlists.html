@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <base href="http://localhost:4000">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS / fonts etc -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- bits and pieces -->
+    <title>stereotopia</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon.png">
+
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header class="container-fluid">
+                <div class="row">
+                    <div class="pagetitle col-sm-7">
+                        <a href="index.html">
+                            <div class="equaliser-container">
+                                <ol class="equaliser-column">
+                                    <li class="colour-bar"></li>
+                                </ol>
+                                <ol class="equaliser-column">
+                                    <li class="colour-bar2"></li>
+                                </ol>
+                                <ol class="equaliser-column">
+                                    <li class="colour-bar3"></li>
+                                </ol>
+                            </div>
+                            <h1>stereo<span class="special">topia</span></h1>
+                        </a>
+                    </div>
+                    <nav class="col-sm-5 text-right">
+                        <p class="current">playlists</p>
+                        <p ><a href="blog.html">blog</a></p>
+                        <p ><a href="about.html">about</a></p>
+                    </nav>
+                </div>
+            </header>
+            <content>
+
+                        <div class="d-flex justify-content-center flex-wrap">
+            <div class="floating playlist1">
+                <div class="squares">
+                    <img src="https://pl.scdn.co/images/pl/default/18260761d72fba1b3039465894716ef481ccfe04" class="rounded" width="90" height="90" />
+                </div>
+            </div>
+            <div class="floating2 playlist2">
+                <div class="squares">
+                    <img src="https://pl.scdn.co/images/pl/default/49e0a42c221f8632d2c3acc3ee3a4adf76ef46d6" class="rounded" width="90" height="90" />
+                </div>
+            </div>
+            <div class="floating3 playlist3">
+                <div class="squares">
+                    <img src="https://mosaic.scdn.co/640/07c8e27537e65345694886523017ee9b6bc8cf6667f1db3b5e4e95808725a5bb39c1e0a15d449b488774e72f9cb8f48e3d6fc50d81f55bec31436a0af9831f1574e72408d4d6aedbbe604f5c4e49d983" class="rounded" width="90" height="90" />
+                </div>
+            </div>
+            <div class="floating playlist4">
+                <div class="squares">
+                    <img src="https://pl.scdn.co/images/pl/default/7365a53aa5bfb5fa66a1e8b6ec903fed52e3b6cc" class="rounded" width="90" height="90" />
+                </div>
+            </div>
+            <div class="floating2 playlist5">
+                <div class="squares">
+                    <img src="https://pl.scdn.co/images/pl/default/61f94f47d5f2c86b8f87726d34d51ca52c0e8511" class="rounded" width="90" height="90" />
+                </div>
+            </div>
+            <div class="floating3 playlist6">
+                <div class="squares">
+                    <img src="https://pl.scdn.co/images/pl/default/c3835d5ba933d5bd29acd6a31af1b325aeff7307" class="rounded" width="90" height="90" />
+                </div>
+            </div>
+            <div class="floating playlist7">
+                <div class="squares">
+                    <img src="https://pl.scdn.co/images/pl/default/469d539dcf23a6e45a66550d5915d3bd64745ca2" class="rounded" width="90" height="90" />
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid hide" id="playcontainer" style="background-image: url('');">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2 id="playlistname"></h2>
+                    <p id="playlistdesc"></p>
+                    <p id="playlistdesc2"></p>
+                </div>
+                <div class="col-sm-4 iframecol">
+                    <iframe id="change-playlist" src="" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+    <script src="assets/scripts/playlistselect.js"></script>
+
+            </content>
+        </div>
+
+        <footer class="container-fluid">
+            <div class="row">
+                <p class="col-sm-4"> &copy; 2019 Parminder Gill </p>
+                <ul class="col-sm-8">
+                    <li class="col-sm-1" id="social">
+                        <a href="https://www.instagram.com/pg.ill"><img src="assets/images/icon_insta.svg" /></a>
+                    </li>
+                    <li class="col-sm-1" id="social">
+                        <a href="https://www.twitter.com/parm1der"><img src="assets/images/icon_twitter.svg" /></a>
+                    </li>
+                    <li class="col-sm-1" id="social">
+                        <a href="https://open.spotify.com/user/parm1der?si=1kKiiV_BSzSfq8aGHwpSog"><img src="assets/images/icon_spotify.svg" /></a>
+                    </li>
+                    <li class="col-sm-1" id="social">
+                        <a href="https://www.last.fm/user/parm1der"><img src="assets/images/icon_last.svg" /></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
