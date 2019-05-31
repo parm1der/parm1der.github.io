@@ -6,5 +6,5 @@ baseurl: ""
 #Build Settings
 permalink: none
 
-gems: 
+plugins: 
         - jekyll-sitemap
