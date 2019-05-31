@@ -98,6 +98,14 @@ content {
     /*opacity: 0.8;*/  
 }
 
+#gallery {
+}
+
+.blogsubtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .clearfix::after {
     content: "";
     clear: both;

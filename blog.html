@@ -21,6 +21,7 @@ layout: default
 
                         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                         <h6><span>{{ post.date |  date: "%B %d, %Y" }}</span><span class="float-right">&#9202;{% include read_time.html content=post.content %}</span></h6>
+                        <p class="blogsubtitle">{{ post.subtitle }}</p>
                         <p>{{post.excerpt}} <a href="{{ post.url }}">Read More</a></p>
                     </div>
                 </div>
