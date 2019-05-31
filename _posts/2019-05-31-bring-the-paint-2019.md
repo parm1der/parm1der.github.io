@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bring The Paint 2019 Review
-subtitle: Spray Paint & Ink Pens - Leicester's award winning street art festival makes a triumphant return.
+subtitle: Spray Paint & Ink Pens - Leicester's award winning street art festival makes a triumphant return
 date: 2019-05-31 20:30
 author: stereotopia
 image: /assets/images/tasso_maclaim.jpg

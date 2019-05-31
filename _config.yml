@@ -1,7 +1,10 @@
 #Site settings
 title: stereotopia
-description: 
+description: Stereotopia is a website with it's finger on the pulse of a world enamoured with digital media.
 baseurl: ""
 
 #Build Settings
 permalink: none
+
+gems: 
+        - jekyll-sitemap
