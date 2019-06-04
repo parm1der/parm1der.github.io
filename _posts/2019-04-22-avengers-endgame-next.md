@@ -7,6 +7,8 @@ author: stereotopia
 image: /assets/images/Doctor_Doom.jpg
 imagecaption: Doctor Victor Von Doom  |  MARVEL &copy;
 category: posts
+keywords: avengers,endgame,russo,captain,america,galactus,doom,infinity,stone,thanos,marvel
+description: The writing's on the wall for Thanos in the MCU. Whether he'll survive Endgame or not remains to be seen, but who/what's going to pick up the mantle when he's inevitably defeated? I've been giving some thought to this and have a few theories
 excerpt_separator: <!--more-->
 ---
 **The writing's on the wall for Thanos in the MCU. Whether he'll survive Endgame or not remains to be seen, but who/what's going to pick up the mantle when he's inevitably defeated? I've been giving some thought to this and have a few theories<!--more-->:**

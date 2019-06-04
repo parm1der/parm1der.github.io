@@ -6,8 +6,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <base href="{{ site.url }}">
-    <meta name="description" content="Stereotopia is a website with it's finger on the pulse of a world enamoured with digital media.  Dystopia or Utopia, you decide.">
-    <meta name="keywords" content="Stereotopia,Music,Playlists,Reviews,Cyberpunk,Dystopia,Movies,Games,Art,Culture,Digital,Media,Blog">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Stereotopia is a website with it's finger on the pulse of a world enamoured with digital media.  Dystopia or Utopia, you decide.{% endif %}">
+    <meta name="keywords" content="{{page.keywords}}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- CSS / fonts etc -->

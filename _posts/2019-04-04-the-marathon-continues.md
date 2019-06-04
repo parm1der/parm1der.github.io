@@ -7,6 +7,8 @@ author: stereotopia
 image: /assets/images/nipsey.jpg
 imagecaption: ERMIAS ASGHEDOM &copy;
 category: posts
+keywords: Nipsey,Hussle,Hip-Hop,Music,Rap,Ermias,Ashgedom
+Description: At just 33 years of age, Nipsey was someone leading by example in a way that only he could. Ermias Asghedom was the change he wanted to see in the world. Rest in Power.
 excerpt_separator: <!--more-->
 ---
 

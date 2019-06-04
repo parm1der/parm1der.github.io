@@ -5,6 +5,7 @@ baseurl: ""
 
 #Build Settings
 permalink: none
+url: www.stereotopia.com
 
 plugins: 
         - jekyll-sitemap

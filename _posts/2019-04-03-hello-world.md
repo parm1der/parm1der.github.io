@@ -7,6 +7,7 @@ author: stereotopia
 image: /assets/images/wheel.png
 imagecaption: PARMINDER GILL &copy;
 category: posts
+keywords: Blog,Parminder,Gill,Sterotopia
 excerpt_separator: <!--more-->
 ---
 
