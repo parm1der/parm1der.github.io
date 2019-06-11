@@ -7,4 +7,4 @@ baseurl: ""
 permalink: none
 
 plugins: 
-        - jekyll-sitemap
+         - jekyll-sitemap

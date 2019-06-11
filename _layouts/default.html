@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <base href="{{ site.url }}">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Stereotopia is a website with it's finger on the pulse of a world enamoured with digital media.  Dystopia or Utopia, you decide.{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Stereotopia is a website with its finger on the pulse of a world enamoured with digital media.  Dystopia or Utopia, you decide.{% endif %}">
     <meta name="keywords" content="{{page.keywords}}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,7 +21,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- bits and pieces -->
-    <title>stereotopia</title>
+    <title>{% if page.title %}stereotopia - {{ page.title }}{% else %}stereotopia{% endif %}</title>
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon.png">
 
 </head>
