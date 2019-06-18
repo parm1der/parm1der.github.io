@@ -48,9 +48,9 @@
                         </a>
                     </div>
                     <nav class="col-sm-5 text-right">
-                        <p {%if page.url == "/playlists.html" %}class="current"{% endif %}>{%if page.url != "/playlists.html" %}<a href="playlists.html">{% endif %}playlists{%if page.url != "/playlists.html" %}</a>{% endif %}</p>
-                        <p {%if page.url == "/blog.html" %}class="current"{% endif %}>{%if page.url != "/blog.html" %}<a href="blog.html">{% endif %}blog{%if page.url != "/blog.html" %}</a>{% endif %}</p>
-                        <p {%if page.url == "/about.html" %}class="current"{% endif %}>{%if page.url != "/about.html" %}<a href="about.html">{% endif %}about{%if page.url != "/about.html" %}</a>{% endif %}</p>
+                        <p {%if page.url == "/playlists.html" %}class="current" {% endif %}>{%if page.url != "/playlists.html" %}<a href="playlists.html">{% endif %}playlists{%if page.url != "/playlists.html" %}</a>{% endif %}</p>
+                        <p {%if page.url == "/blog.html" %}class="current" {% endif %}>{%if page.url != "/blog.html" %}<a href="blog.html">{% endif %}blog{%if page.url != "/blog.html" %}</a>{% endif %}</p>
+                        <p {%if page.url == "/about.html" %}class="current" {% endif %}>{%if page.url != "/about.html" %}<a href="about.html">{% endif %}about{%if page.url != "/about.html" %}</a>{% endif %}</p>
                     </nav>
                 </div>
             </header>
@@ -79,6 +79,31 @@
                     </li>
                 </ul>
             </div>
+            <!-- Quantcast Tag -->
+            <script type="text/javascript">
+                var _qevents = _qevents || [];
+
+                (function() {
+                    var elem = document.createElement('script');
+                    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                    elem.async = true;
+                    elem.type = "text/javascript";
+                    var scpt = document.getElementsByTagName('script')[0];
+                    scpt.parentNode.insertBefore(elem, scpt);
+                })();
+
+                _qevents.push({
+                    qacct: "p-VyDeQ3eK6Ucb_"
+                });
+
+            </script>
+
+            <noscript>
+                <div style="display:none;">
+                    <img src="//pixel.quantserve.com/pixel/p-VyDeQ3eK6Ucb_.gif" border="0" height="1" width="1" alt="Quantcast" />
+                </div>
+            </noscript>
+            <!-- End Quantcast tag -->
         </footer>
     </div>
 </body>
