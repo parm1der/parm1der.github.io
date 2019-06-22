@@ -312,6 +312,10 @@ header h1 .special {
     font-size: 15px;
 }
 
+.trackname {
+    font-weight: bold;
+}
+
 /*Everything to do with the scrollable playlist box*/
 
 .scrolling-wrapper-flexbox {
