@@ -21,7 +21,7 @@ It all changed when consumers stopped viewing music as physical media (Vinyl Rec
 Looking back to 2001 the music industry was under siege by Pirates. We were ripping, burning and downloading more than ever. Napster, Limewire, Kazaa and Bearshare were killing physical sales. "Where's the value in a digital file that can be infinitely copied?" we asserted. This was evident. According to Forrester Research revenue from music sales across the US plummeted to $6.3 billion in 2009. In 1999, that same figure topped $14.6 billion.<a href="https://money.cnn.com/2010/02/02/news/companies/napster_music_industry/"><sup>[2]</sup></a>
 
 <figure class="figure">
-<img src="/assets/images/hmv-leic-2.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
+<img src="/assets/images/hmv-leic2.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
 <figcaption class="figure-caption text-right"> VINYL AT HMV &copy;</figcaption>
 </figure>
 
