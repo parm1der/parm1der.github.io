@@ -1,14 +1,14 @@
 ---
 layout: post
 title: The Streaming Revolution I - Music
-subtitle: The changes 
+subtitle: Is this the end of owning music?
 date: 2019-07-02 18:00
 author: stereotopia
 image: /assets/images/hmv-leic.jpg
 imagecaption: HMV LEICESTER
 category: posts
 keywords: Music, Streaming, HMV, Leicester, Spotify, Tech, Future
-description: Is this the end of owning music?
+description: I was walking through the city centre on my lunch break and the sign stopped me in my tracks. Leicester's HMV store is closing down. With streaming taking over, is this the end of owning music?
 excerpt_separator: <!--more-->
 ---
 
