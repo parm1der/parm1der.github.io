@@ -4,7 +4,7 @@ title: The Streaming Revolution I - Music
 subtitle: The changes 
 date: 2019-07-02 18:00
 author: stereotopia
-image: /assets/images/hmv-leic.png
+image: /assets/images/hmv-leic.jpg
 imagecaption: HMV LEICESTER
 category: posts
 keywords: Music, Streaming, HMV, Leicester, Spotify, Tech, Future
