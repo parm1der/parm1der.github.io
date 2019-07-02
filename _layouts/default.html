@@ -20,6 +20,26 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KWR4JK2');
+
+    </script>
+    <!-- End Google Tag Manager -->
+
     <!-- bits and pieces -->
     <title>{% if page.title %}stereotopia - {{ page.title }}{% else %}stereotopia{% endif %}</title>
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon.png">
@@ -27,6 +47,10 @@
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWR4JK2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div id="page-container">
         <div id="content-wrap">
             <header class="container-fluid">
@@ -79,31 +103,6 @@
                     </li>
                 </ul>
             </div>
-            <!-- Quantcast Tag -->
-            <script type="text/javascript">
-                var _qevents = _qevents || [];
-
-                (function() {
-                    var elem = document.createElement('script');
-                    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-                    elem.async = true;
-                    elem.type = "text/javascript";
-                    var scpt = document.getElementsByTagName('script')[0];
-                    scpt.parentNode.insertBefore(elem, scpt);
-                })();
-
-                _qevents.push({
-                    qacct: "p-VyDeQ3eK6Ucb_"
-                });
-
-            </script>
-
-            <noscript>
-                <div style="display:none;">
-                    <img src="//pixel.quantserve.com/pixel/p-VyDeQ3eK6Ucb_.gif" border="0" height="1" width="1" alt="Quantcast" />
-                </div>
-            </noscript>
-            <!-- End Quantcast tag -->
         </footer>
     </div>
 </body>

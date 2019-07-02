@@ -25,7 +25,8 @@ Buying a limited/exclusive/collaboration pair of sneakers has never been straigh
 - **Credit/Debit Card** - Cash rules.  
 - **Paypal Account** - While a credit card is usually enough, it isn't uncommon for certain retailers' payment gateways to buckle under demand. Paypal can sometimes help to bypass this, not to mention it's quicker than re-entering long card numbers should something go wrong at the checkout.  
 - **Android / iOS device** - APPS! So in the past few years, a lot more releases are exclusive to a particular app - Nike Sneakrs, Adidas, SNS, Frenzy, Size? Previews etc. The more entries you have, the higher the chance of success.  
-- **Patience** - Things won't always go smoothly, sometimes you may not get the coveted W. Keep trying, stay tuned to social media for stock updates. If it doesn't go to plan, just remember it's only a shoe. You can always pay resale prices if it stings too much.  
+- **Patience** - Things won't always go smoothly, sometimes you may not get the coveted W. Keep trying, stay tuned to social media for stock updates. If it doesn't go to plan, just remember it's only a shoe. You can always pay resale prices if it stings too much.
+- **Google Chrome** - Google Chrome's Autofill option is a lifesaver when buying from websites in a rush. If you trust chrome with your data, you can also store your card details so the only thing you need on drop day is your CV2.
 
   
 
