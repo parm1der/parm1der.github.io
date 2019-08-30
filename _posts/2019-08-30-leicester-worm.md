@@ -19,7 +19,7 @@ The Worm Guy's doodle is a colourful distraction from the dullness of daily city
 
 <figure class="figure">
 <img src="/assets/images/worm2.jpg" class="img-fluid fit-image rounded center-block" id="blogimg2"/>
-<figcaption class="figure-caption text-right"> THE WORM GUY &copy;</figcaption>
+<figcaption class="figure-caption text-right"> Who is "The Worm Guy"? &copy;</figcaption>
 </figure>
 
 While it might be tempting to write an essay all about Leicester's Worm, I don't think it needs that. It's a fun character; sometimes asking for a Hug, other times just sleeping "Zzzzzzz.".  A splash of colour to make you smile.
