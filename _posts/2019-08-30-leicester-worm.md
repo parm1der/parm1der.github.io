@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Worms are invading Leicester!
-subtitle: A glance at the colourful street icon that has been popping up on Leicester lamposts, walls and everything in between.
+subtitle: Where did 'The Worm' come from?
 date: 2019-08-30 13:00
 author: stereotopia
 image: /assets/images/worm1.jpg
