@@ -22,7 +22,7 @@ The Worm Guy's doodle is a colourful distraction from the dullness of daily city
 <figcaption class="figure-caption text-right"> Who is The Worm Guy? &copy;</figcaption>
 </figure>
 
-While it might be tempting to write an essay all about Leicester's Worm, I don't think it needs that. It's a fun character; sometimes asking for a Hug, other times just sleeping "Zzzzzzz.".  A splash of colour to make you smile.
+While it might be tempting to write an essay all about Leicester's Worm, I don't think it needs that. It's a fun character; sometimes asking for a Hug, other times just sleeping "Zzzzzzz".  A splash of colour to make you smile.
 
 Whatever your opinions on graffiti, street art, vandalism, whatever... It is undeniable that the appearance of Leicester's Worm has added a sense of intrigue to the city. I personally welcome this mascot into our city's diverse DNA and hope it remains for many years to come. If you do spot the Worm, tag it with #LeicesterWorm! Why? Why not?!
 
