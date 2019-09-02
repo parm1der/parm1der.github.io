@@ -9,6 +9,7 @@ imagecaption: HMV LEICESTER
 category: posts
 keywords: Music, Streaming, HMV, Leicester, Spotify, Tech, Future
 description: I was walking through the city centre on my lunch break and the sign stopped me in my tracks. Leicester's HMV store is closing down. With streaming taking over, is this the end of owning music?
+comments: true
 excerpt_separator: <!--more-->
 ---
 
@@ -30,3 +31,7 @@ Eventually, the industry adapted - but not entirely. The arrival of Spotify in 2
 It seems HMV's downfall was reacting to this trend too slowly. Today, around 50% of floor space in their stores is taken up by vinyl records. Betting on the resurgence of vinyl was fundamental for HMV, it just didn't pay off as well as they'd hoped. 
 
 The music business today is digital. SEO, playlist placements and exclusive content are what's being discussed in boardrooms. Partners in automotive, tech and fashion are at the forefront of executives minds rather than retail locations. So as we marvel and enjoy the benefits this technology brings us, pour one out for our homies at HMV. Brick and Mortar retail has been our portal to music for decades and deserves to be recognised as such. It's not only music either; film, television and gaming are all being transformed at a rapid rate by technology. Is the silver screen important anymore? Are games consoles a thing of the past? Find out on the next <del>episode of Dragon Ball Z</del> article...
+
+<hr>
+
+{% if page.comments %}{% include disqus.html %}{% endif %}

@@ -9,6 +9,7 @@ imagecaption: NIKE X UNDERCOVER DAYBREAK
 category: posts
 keywords: sneakers,trainers,how,to,cop,buy,nike,adidas,yeezy,off-white,jordan,stockx,legit,sneakrs,app,raffle,draw,limited,edition
 description: Step by Step guide and tips on how to buy the most in-demand limited edition sneakers today for the uninitiated. 
+comments: true
 excerpt_separator: <!--more-->
 ---
 
@@ -93,3 +94,7 @@ Measure hype. Now I wanted to avoid this topic but it's honestly impossible in t
 **AF1**: Nike Air Force 1  
 **1s, 3s, 4s, 11s, 13s**: Basically refers to that Air Jordan model e.g. the Air Jordan 1.  
 **Hype**: Refers to the amount of buzz surrounding a release  
+
+<hr>
+
+{% if page.comments %}{% include disqus.html %}{% endif %}

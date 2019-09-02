@@ -9,6 +9,7 @@ imagecaption: TASSO MACLAIM | WIP
 category: posts
 keywords: bring the paint,graffiti,street,art,leicester,city,bring,paint,graffwerk,urban,voyder,skyhigh,tasso,maclaim,insane51,nosm,map,2019
 description: Dozens of internationally acclaimed Street Artists descended on Leicester for 2019's Bring the Paint festival; a celebration of creativity, street culture and art. Bring the Paint 2019 included live Skateboarding and BMX, tasty street food, great music and art workshops for all ages.
+comments: true
 excerpt_separator: <!--more-->
 ---
 
@@ -23,3 +24,7 @@ The festival itself is a collaborative effort between Graffwerk, Arts Council En
 <hr>
 
 {% include btp_gallery.html %}
+
+<hr>
+
+{% if page.comments %}{% include disqus.html %}{% endif %}

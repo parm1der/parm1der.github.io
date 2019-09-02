@@ -9,6 +9,7 @@ imagecaption: Doctor Victor Von Doom  |  MARVEL &copy;
 category: posts
 keywords: avengers,endgame,russo,captain,america,galactus,doom,infinity,stone,thanos,marvel
 description: The writing's on the wall for Thanos in the MCU. Whether he'll survive Endgame or not remains to be seen, but who/what's going to pick up the mantle when he's inevitably defeated? I've been giving some thought to this and have a few theories
+comments: true
 excerpt_separator: <!--more-->
 ---
 **The writing's on the wall for Thanos in the MCU. Whether he'll survive Endgame or not remains to be seen, but who/what's going to pick up the mantle when he's inevitably defeated? I've been giving some thought to this and have a few theories<!--more-->:**
@@ -33,3 +34,7 @@ So I’ve suspected that Marvel Studios will use Galactus as soon as they re-acq
 **3. Something else?**
 
 Marvel has a rich catalogue of villains/malicious entities to pick from and I don’t doubt Marvel Studios’ ability to surprise us. Ultron could always return. When the x-men are introduced there’s so much potential for a fresh take on Apocalypse and Phoenix. Maybe things will get really bad and The Beyonders will end the multiverse… I don’t think we’ll get any answers this week when Avengers: Endgame premieres globally but I can’t contain my excitement to see the likes of Thor, Hulk and Cap triumph over Thanos (please don’t die).
+
+<hr>
+
+{% if page.comments %}{% include disqus.html %}{% endif %}

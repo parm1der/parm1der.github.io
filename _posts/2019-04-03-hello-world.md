@@ -8,6 +8,7 @@ image: /assets/images/wheel.png
 imagecaption: PARMINDER GILL &copy;
 category: posts
 keywords: Blog,Parminder,Gill,Sterotopia
+comments: true
 excerpt_separator: <!--more-->
 ---
 
@@ -16,3 +17,7 @@ This is something I’ve always wanted to do. Not for any kind of recognition - 
 The primary purpose of this website was just to have somewhere to post my playlists to. I spend hours every day listening to music and think I’m fairly decent at putting together a playlist to encapsulate a specific emotion, mood or situation. Secondly, I wanted to challenge myself - I’ve always wanted to have my own website but wanted to steer clear of templates and content management systems. So I challenged myself and here it is; Parminder’s website written in scratch in HTML, CSS and JavaScript. Mission Accomplished!
 
 There are a couple of things I’m not happy with (namely the blog layout) - I’m definitely working on it though! Feel free to reach out with any feedback you have. Music suggestions are definitely encouraged.
+
+<hr>
+
+{% if page.comments %}{% include disqus.html %}{% endif %}
