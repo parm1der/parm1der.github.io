@@ -9,6 +9,7 @@ imagecaption: WORM
 category: posts
 keywords: Worm, Leicester, Worms, LeicesterWorm, Street Art, Graffiti, Culture, The Worm guy
 description: Worms are invading Leicester. A glance at the colourful street icon that has been popping up on walls, lamposts and everything in between.
+comments: true
 excerpt_separator: <!--more-->
 ---
 
@@ -31,3 +32,7 @@ Until then check out the gallery of some of the worms I've spotted so far here!
 <hr>
 
 {% include worm_gallery.html %}
+
+<hr>
+
+{% if page.comments %}{% include disqus.html %}{% endif %}
