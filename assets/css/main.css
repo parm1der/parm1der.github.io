@@ -589,7 +589,7 @@ footer li img {
 }
 
 .card {
-    background-color:rgba(0,0,0,0);
+    background-color:rgba(0,0,0,0)!important;
 }
 
 @media (prefers-color-scheme: dark) {
