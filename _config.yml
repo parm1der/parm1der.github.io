@@ -4,7 +4,7 @@ description: Stereotopia is a website with it's finger on the pulse of a world e
 baseurl: ""
 
 #Build Settings
-permalink: none
+permalink: /:title/
 
 plugins: 
          - jekyll-sitemap
