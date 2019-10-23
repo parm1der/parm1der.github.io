@@ -13,7 +13,7 @@ comments: true
 excerpt_separator: <!--more-->
 ---
 
-**This year is definitely one of the quietest years for hip hop in recent memories. Memorable albums have been few and far between. Why is this the case? What is the remedy? <!--more-->**
+This year is definitely one of the quietest years for hip hop in recent memory. Memorable albums have been few and far between. Why is this the case? What is the remedy? <!--more-->
 
 So far, 2019 has been a quiet year for my favourite genre of music, hip-hop. I say quiet, as it hasn't necessarily been bad. Freddie Gibbs & Madlib released the duo's excellent sophomore album Bandana. Tyler, the Creator returned with the acclaimed IGOR. Dreamville and co dropped Revenge of the Dreamers III.  The UK pulled no punches either with massive albums from Dave, Little Simz and Slowthai respectively. 
 
