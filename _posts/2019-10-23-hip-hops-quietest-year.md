@@ -46,7 +46,6 @@ They don't wanna hear not one more noun or verb from you n****s<br/>
 What is competition? I'm tryna raise the bar high</i></q>**
 
 <iframe src="https://open.spotify.com/embed/track/18lRXAROle06PhNpCqRoSV" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<br/>
 
 That competitive edge has been missing for a while. Outside of last year's quarrel between Pusha T and Drake ("You are hiding a child") it has become the norm.  I'm not calling for meaningless beef to sell records but wake your peers up. Make them work for their fans. I don't see that happening anytime soon, but we can always hope. 
 
