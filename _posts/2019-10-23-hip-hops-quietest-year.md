@@ -19,8 +19,9 @@ So far, 2019 has been a quiet year for my favourite genre of music, hip-hop. I s
 
 Yet despite those gems, it's easy to argue that hip hop has had an anaemic year so far. You can easily count this year's notable releases on two hands. In any other music genre that would probably mark a great year, but not for hip hop. Let us take some notable releases of the past few years as an example:
 
-2018: Pusha T, J.Cole, Eminem, Travis Scott, Drake, Mac Miller, Jay Rock, Lil Wayne, Royce da 5'9", Kids See Ghosts, Nipsey Hussle, Lupe Fiasco, J.I.D, Meek Mill, Cardi B, Freddie Gibbs/ Curren$y / The Alchemist, Migos, 21 Savage...
-2017: Kendrick Lamar, Tyler the Creator, Jay Z, Migos, Joey Bada$$, Drake, Big Sean, Raekwon, Freddie Gibbs, Meek Mill, Big Boi, Run the Jewels, Vince Staples, Vic Mensa, Roc Marciano, 21 Savage, Rick Ross, Cyhi the Prince, Lil Uzi Vert...
+**2018**: Pusha T, J.Cole, Eminem, Travis Scott, Drake, Mac Miller, Jay Rock, Lil Wayne, Royce da 5'9", Kids See Ghosts, Nipsey Hussle, Lupe Fiasco, J.I.D, Meek Mill, Cardi B, Freddie Gibbs/ Curren$y / The Alchemist, Migos, 21 Savage...<br/>
+<br/>
+**2017**: Kendrick Lamar, Tyler the Creator, Jay Z, Migos, Joey Bada$$, Drake, Big Sean, Raekwon, Freddie Gibbs, Meek Mill, Big Boi, Run the Jewels, Vince Staples, Vic Mensa, Roc Marciano, 21 Savage, Rick Ross, Cyhi the Prince, Lil Uzi Vert...
 
 Looking at these lists, what can we conclude? Freddie Gibbs raps his ass off. No, but seriously, each year has been stamped in our memories by BIG releases from hip hop giants.  This year? Lacklustre.
 It's hard to find another way to describe 2019 considering that Nas, one of the best MC's ever, managed to drop an album that went relatively unnoticed. Fans are still left clamouring to hear something new from Kendrick Lamar (at least a few more verses?). And Kanye... that's a discussion for another time. Not to mention his protege Chance released the colossal disappointment The Big Day this year. Even if we assume that this year will be rescued by a masterpiece in the last few months of the year, I think 2019 falls short for one reason. Competition.
@@ -42,3 +43,5 @@ That competitive edge has been missing for a while. Outside of last year's quarr
 Meanwhile, a few months remain in 2019, and there could be some significant releases still to come. Run the Jewels may release RTJ4 before the year's up, Kanye's next album could be decent, and most importantly we're getting a f**king Gang Starr album in December. If that's not a cause for celebration, I don't know what is. So despite the pessimistic tone present in this post, Hip Hop is most definitely NOT dead. In 2019 the UK scene is thriving, we still have elite MCs like Black Thought blessing us with verses, and hip hop is still music's most diverse genre by a light year.
 
 Disclaimer: There are a lot of 2019 albums I didn't mention in this article, and for a good reason, the majority were mediocre. Disagree? Vent in the comments.
+
+{% if page.comments %}{% include disqus.html %}{% endif %}
