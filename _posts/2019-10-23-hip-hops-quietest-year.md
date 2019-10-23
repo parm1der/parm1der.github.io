@@ -13,7 +13,7 @@ comments: true
 excerpt_separator: <!--more-->
 ---
 
-This year is definitely one of the quietest years for hip hop in recent memories. Memorable albums have been few and far between. Why is this the case? What is the remedy? <!--more-->
+**This year is definitely one of the quietest years for hip hop in recent memories. Memorable albums have been few and far between. Why is this the case? What is the remedy? <!--more-->**
 
 So far, 2019 has been a quiet year for my favourite genre of music, hip-hop. I say quiet, as it hasn't necessarily been bad. Freddie Gibbs & Madlib released the duo's excellent sophomore album Bandana. Tyler, the Creator returned with the acclaimed IGOR. Dreamville and co dropped Revenge of the Dreamers III.  The UK pulled no punches either with massive albums from Dave, Little Simz and Slowthai respectively. 
 
@@ -29,7 +29,6 @@ Yet despite those gems, it's easy to argue that hip hop has had an anaemic year 
 <figure class="figure">
 <img src="/assets/images/hh2017.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
 </figure>
-<br/>
 
 Looking at these lists, what can we conclude? Freddie Gibbs raps his ass off. No, but seriously, each year has been stamped in our memories by BIG releases from hip hop giants.  This year? Lacklustre.
 It's hard to find another way to describe 2019 considering that Nas, one of the best MC's ever, managed to drop an album that went relatively unnoticed. Fans are still left clamouring to hear something new from Kendrick Lamar (at least a few more verses?). And Kanye... that's a discussion for another time. Not to mention his protege Chance released the colossal disappointment The Big Day this year. Even if we assume that this year will be rescued by a masterpiece in the last few months of the year, I think 2019 falls short for one reason. Competition.
@@ -45,6 +44,8 @@ I got love for you all, but I'm tryna murder you n****s<br/>
 Tryna make sure your core fans never heard of you n****s<br/>
 They don't wanna hear not one more noun or verb from you n****s<br/>
 What is competition? I'm tryna raise the bar high</i></q>**
+
+<iframe src="https://open.spotify.com/embed/track/18lRXAROle06PhNpCqRoSV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 That competitive edge has been missing for a while. Outside of last year's quarrel between Pusha T and Drake ("You are hiding a child") it has become the norm.  I'm not calling for meaningless beef to sell records but wake your peers up. Make them work for their fans. I don't see that happening anytime soon, but we can always hope. 
 
