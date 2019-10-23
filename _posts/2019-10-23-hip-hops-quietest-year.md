@@ -27,7 +27,7 @@ It's hard to find another way to describe 2019 considering that Nas, one of the 
 
 Rap has always been about staking your claim on the microphone; lyrics, punchlines, delivery and charisma. Yet in 2019 it appears that the love for the art is dwindling. Which is unusual considering that hip hop is more prominent than it's ever been. The competition isn't there anymore. Rap is overdue another "Control" moment - when Kendrick "inspired" everyone else to step up their game in 2011: 
 
-**<q><i>I'm usually homeboys with the same n&ast;&ast;&ast;&ast;s I'm rhymin' with
+**<q><i>I'm usually homeboys with the same n****s I'm rhymin' with
 But this is hip-hop, and them n&ast;&ast;&ast;&ast;s should know what time it is
 And that goes for Jermaine Cole, Big K.R.I.T., Wale
 Pusha T, Meek Millz, A$AP Rocky, Drake
