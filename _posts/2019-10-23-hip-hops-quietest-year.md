@@ -17,7 +17,9 @@ This year is definitely one of the quietest years for hip hop in recent memories
 
 So far, 2019 has been a quiet year for my favourite genre of music, hip-hop. I say quiet, as it hasn't necessarily been bad. Freddie Gibbs & Madlib released the duo's excellent sophomore album Bandana. Tyler, the Creator returned with the acclaimed IGOR. Dreamville and co dropped Revenge of the Dreamers III.  The UK pulled no punches either with massive albums from Dave, Little Simz and Slowthai respectively. 
 
-<iframe src="https://open.spotify.com/embed/album/2n3quCZ0anEa46j2IveacI" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/album/2n3quCZ0anEa46j2IveacI" width="280" height="355" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> <iframe src="https://open.spotify.com/embed/album/31KbO7WnDp2AjPdmRTJzdf" width="280" height="355" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe><iframe src="https://open.spotify.com/embed/album/4GrFuXwRmEBJec22p58fsD" width="280" height="355" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<br>
+
 
 Yet despite those gems, it's easy to argue that hip hop has had an anaemic year so far. You can easily count this year's notable releases on two hands. In any other music genre that would probably mark a great year, but not for hip hop. Let us take some notable releases of the past few years as an example:
 
