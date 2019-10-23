@@ -588,6 +588,10 @@ footer li img {
     font-size: 70%;
 }
 
+.card {
+    background-color:rgba(0,0,0,0);
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #444;
