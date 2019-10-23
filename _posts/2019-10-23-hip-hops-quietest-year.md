@@ -28,13 +28,13 @@ It's hard to find another way to describe 2019 considering that Nas, one of the 
 Rap has always been about staking your claim on the microphone; lyrics, punchlines, delivery and charisma. Yet in 2019 it appears that the love for the art is dwindling. Which is unusual considering that hip hop is more prominent than it's ever been. The competition isn't there anymore. Rap is overdue another "Control" moment - when Kendrick "inspired" everyone else to step up their game in 2011: 
 
 **<q><i>I'm usually homeboys with the same n****s I'm rhymin' with
-But this is hip-hop, and them n&ast;&ast;&ast;&ast;s should know what time it is
+But this is hip-hop, and them n****s should know what time it is
 And that goes for Jermaine Cole, Big K.R.I.T., Wale
 Pusha T, Meek Millz, A$AP Rocky, Drake
 Big Sean, Jay Electron', Tyler, Mac Miller
-I got love for you all, but I'm tryna murder you n&ast;&ast;&ast;&ast;s
-Tryna make sure your core fans never heard of you n&ast;&ast;&ast;&ast;s
-They don't wanna hear not one more noun or verb from you n&ast;&ast;&ast;&ast;s
+I got love for you all, but I'm tryna murder you n****s
+Tryna make sure your core fans never heard of you n****s
+They don't wanna hear not one more noun or verb from you n****s
 What is competition? I'm tryna raise the bar high</i></q>**
 
 That competitive edge has been missing for a while. Outside of last year's quarrel between Pusha T and Drake ("You are hiding a child") it has become the norm.  I'm not calling for meaningless beef to sell records but wake your peers up. Make them work for their fans. I don't see that happening anytime soon, but we can always hope. 
