@@ -1,3 +1,4 @@
+---
 layout: post
 title: 2019. Hip hop's quietest year
 subtitle: Who’s Gonna Take the Weight?
