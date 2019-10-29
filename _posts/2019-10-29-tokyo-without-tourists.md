@@ -17,7 +17,9 @@ Tokyo was just named 2019's best big city by Condé Nast Traveler's poll of 600,
 
 **Sengaku-Ji**
 
-Tokyo is a place where tradition and technology seem to live together in harmony. Though when you tend to visit some of the traditional temples, you're mostly there with dozens of other tourists and to be frank, it kind of kills the vibe. Sengaku-Ji is located in the Minato City district of Tokyo and is a Buddhist temple that is steeped in history, in a quiet neighbourhood and usually doesn't get too busy. The temple grounds contain the graves of the 47 Samurai (commonly referred to as the 47 Ronin in the west) and hence is an important historical site. There is also a museum on-site that houses artefacts relating to the 47 Samurai. The Ako Incident remains one of the most famous examples of vengeance and bushido in Japanese history, so much so that it received a Hollywood adaptation starring Keanu Reeves. Outside of its historical significance, the temple is a serene and welcoming place and is probably my favourite place in Tokyo. On December 14th a festival is held there to commemorate the anniversary of the 47 Ronin's revenge and would also be a great time to visit.
+Tokyo is a place where tradition and technology seem to live together in harmony. Though when you tend to visit some of the traditional temples, you're mostly there with dozens of other tourists and to be frank, it kind of kills the vibe. Sengaku-Ji is located in the Minato City district of Tokyo and is a Buddhist temple that is steeped in history, in a quiet neighbourhood and usually doesn't get too busy. The temple grounds contain the graves of the 47 Samurai (commonly referred to as the 47 Ronin in the west) and hence is an important historical site. There is also a museum on-site that houses artefacts relating to the 47 Samurai. 
+
+The Ako Incident remains one of the most famous examples of vengeance and bushido in Japanese history, so much so that it received a Hollywood adaptation starring Keanu Reeves. Outside of its historical significance, the temple is a serene and welcoming place and is probably my favourite place in Tokyo. On December 14th a festival is held there to commemorate the anniversary of the 47 Ronin's revenge and would also be a great time to visit.
 <figure class="figure">
 <img src="/assets/images/sengakuji.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
 <figcaption class="figure-caption text-right">Sengaku-ji</figcaption>
@@ -33,7 +35,8 @@ Tokyo is the place to go if you love ramen and no article or guide is complete w
 
 **Nakano Broadway**
 
-Nakano Broadway is a collector's paradise. When you walk through its iconic archway entrance, Broadway appears to be a reasonably regular mall. The main street on the ground floor is packed with discount clothing stores, electronics shops and groceries. However, as soon as you head up a level, things get way more interesting. From vintage toys to lighters, military surplus to Yu-Gi-Oh cards, retro games to sports memorabilia; Nakano Broadway is home to all kinds of treasure. 
+Nakano Broadway is a collector's paradise. When you walk through its iconic archway entrance, Broadway appears to be a reasonably regular mall. The main street on the ground floor is packed with discount clothing stores, electronics shops and groceries. However, as soon as you head up a level, things get way more interesting. From vintage toys to lighters, military surplus to Yu-Gi-Oh cards, retro games to sports memorabilia; Nakano Broadway is home to all kinds of treasure.
+
 It's easy to spend hours here; you'll find such a unique slice of pop culture delights that it's worth a visit even if you don't want to spend money. Highlights include the multiple Mandrake stores, Tonari no Zingaro and Robot Robot. After exploring this complex of wonder, you can head to the basement floor and get a snack from one of the eateries located there or game to your heart's content in the Namco arcade on the ground floor.
 <figure class="figure">
 <img src="/assets/images/nakano.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
