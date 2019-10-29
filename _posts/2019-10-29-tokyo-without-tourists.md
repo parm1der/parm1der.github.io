@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tokyo: off the beaten path
+title: Tokyo - off the beaten path
 subtitle: Lost in Japan - Explore tokyo away from the tourists
 date: 2019-10-29 21:00
 author: stereotopia
@@ -62,7 +62,7 @@ If you find yourself in Shibuya with nothing to do (unlikely), then visit Diesel
 **Kakimori**
 Kakimori is stationery heaven. This shop exemplifies Japan's attention to detail. Inside Kakimori you'll find pens galore ranging from a few hundred yen to tens of thousands, racks of fancy writing paper and envelopes, and best of all a wall where you can personalise a notebook down to the binding. The notebook customisation is the shop's main draw; you pick up a tray and can select the front and back covers, the types of paper, binding, edging, closure. They have limited edition collaborations - recently you could choose traditional kimono fabric as your notebook cover. The store will then make your book within a few hours for you to collect - just enough time to explore the locale of Taito City.  Born to celebrate the love of writing, Kakimori demonstrates how the analogue still retains its value in today's increasingly digital world. Alternatively, check out 9-floor Itoya in Ginza for your stationery fix.
 <figure class="figure">
-<img src="/assets/images/kuramae-illust.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
+<img src="/assets/images/kuramae_illust.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
 <figcaption class="figure-caption text-right">Kakimori Kuramae Illustration |  KAKIMORI &copy;</figcaption>
 </figure>
 
