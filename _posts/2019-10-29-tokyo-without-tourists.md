@@ -45,7 +45,9 @@ It's easy to spend hours here; you'll find such a unique slice of pop culture de
 
 **Ginza Six**
 
-Ginza Six is a high-end mall with six floors of luxury stores and aims to offer a six-star shopping experience (hence the name). It opened in 2017 and is one of the best shopping experiences Ginza offers. The mall boasts flagships of Fendi and Vivienne Westwood amongst others, a concierge service, simple tax-free shopping for tourists and an entire floor of cosmetics boutiques. The complex has a clean futuristic interior while retaining a warm traditional feel. Thanks to this architecture, Ginza Six always feels welcoming despite the numerous expensive brands it houses. If you're not in the mood for shopping, Ginza Six still has much to offer. It has a peaceful rooftop garden and a massive Tsutaya bookstore / Starbucks hybrid where you can read and sip on your coffee in peace. There are also some great restaurants within the complex if you're hungry.
+Ginza Six is a high-end mall with six floors of luxury stores and aims to offer a six-star shopping experience (hence the name). It opened in 2017 and is one of the best shopping experiences Ginza offers. The mall boasts flagships of Fendi and Vivienne Westwood amongst others, a concierge service, simple tax-free shopping for tourists and an entire floor of cosmetics boutiques. 
+
+The complex has a clean futuristic interior while retaining a warm traditional feel. Thanks to this architecture, Ginza Six always feels welcoming despite the numerous expensive brands it houses. If you're not in the mood for shopping, Ginza Six still has much to offer. It has a peaceful rooftop garden and a massive Tsutaya bookstore / Starbucks hybrid where you can read and sip on your coffee in peace. There are also some great restaurants within the complex if you're hungry.
 <figure class="figure">
 <img src="/assets/images/g6-1.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
 <figcaption class="figure-caption text-right">Ginza Six Rooftop Garden</figcaption>
@@ -65,13 +67,15 @@ If you find yourself in Shibuya with nothing to do (unlikely), then visit Diesel
 
 **Kakimori**
 
-Kakimori is stationery heaven. This shop exemplifies Japan's attention to detail. Inside Kakimori you'll find pens galore ranging from a few hundred yen to tens of thousands, racks of fancy writing paper and envelopes, and best of all a wall where you can personalise a notebook down to the binding. The notebook customisation is the shop's main draw; you pick up a tray and can select the front and back covers, the types of paper, binding, edging, closure. They have limited edition collaborations - recently you could choose traditional kimono fabric as your notebook cover. The store will then make your book within a few hours for you to collect - just enough time to explore the locale of Taito City.  Born to celebrate the love of writing, Kakimori demonstrates how the analogue still retains its value in today's increasingly digital world. Alternatively, check out 9-floor Itoya in Ginza for your stationery fix.
+Kakimori is stationery heaven. This shop exemplifies Japan's attention to detail. Inside Kakimori you'll find pens galore ranging from a few hundred yen to tens of thousands, racks of fancy writing paper and envelopes, and best of all a wall where you can personalise a notebook down to the binding. The notebook customisation is the shop's main draw; you pick up a tray and can select the front and back covers, the types of paper, binding, edging, closure. 
+
+They have limited edition collaborations - recently you could choose traditional kimono fabric as your notebook cover. The store will then make your book within a few hours for you to collect - just enough time to explore the locale of Taito City.  Born to celebrate the love of writing, Kakimori demonstrates how the analogue still retains its value in today's increasingly digital world. Alternatively, check out 9-floor Itoya in Ginza for your stationery fix.
 <figure class="figure">
 <img src="/assets/images/kuramae_illust.jpg" class="img-fluid fit-image rounded" id="blogimg2"/>
 <figcaption class="figure-caption text-right">Kakimori Kuramae Illustration |  KAKIMORI &copy;</figcaption>
 </figure>
 
 
-Can't make the trip? Check out Spotify's <a href ="spotify:playlist:37i9dQZEVXbKXQ4mDTEBXq">Japan Top 50 Playlist</a> for an auditory adventure in the land of the rising sun.
+Can't make the trip? Check out Spotify's **<a href ="spotify:playlist:37i9dQZEVXbKXQ4mDTEBXq">Japan Top 50 Playlist</a>** for an auditory adventure in the land of the rising sun.
 
 {% if page.comments %}{% include disqus.html %}{% endif %}
