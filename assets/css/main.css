@@ -270,7 +270,7 @@ header h1 .special {
 
 .jumbotron {
     display: flex;
-    background-image: url("/assets/images/Asakusa.jpeg"); /*jumbotron bg*/
+    background-image: url("/assets/images/athena.png"); /*jumbotron bg*/
     background-size: cover;
     background-position: center;
     color: #ffffff;
